@@ -40,7 +40,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-
+  return_sum = array.inject {|sum, number| sum + number}
+  return_sum
 end
 
 def add_s(array)
