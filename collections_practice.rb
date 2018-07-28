@@ -40,3 +40,12 @@ end
 def add_s(array)
 
 end
+
+
+def swap_elements_from_to(array, index, destination_index)
+  el1 = array[index]
+  el2 = array[destination_index]
+  array[index] = el2
+  array[destination_index] = el1
+  array
+end
