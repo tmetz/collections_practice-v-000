@@ -17,6 +17,7 @@ def sort_array_char_count(array)
     else
       1
     end
+    puts "sorted"
   end
   puts array
   array
