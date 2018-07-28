@@ -10,6 +10,7 @@ def sort_array_char_count(array)
   array.sort do |x,y|
     x.length <=> y.length
   end
+  puts array
   array
 end
 
@@ -36,3 +37,6 @@ end
 def add_s(array)
 
 end
+
+
+sort_array_char_count(["yfyf", "poittdf", "y", "sawdvhjgffhjk", "uy"])
