@@ -8,9 +8,7 @@ end
 
 def sort_array_char_count(array)
   array.sort do |x,y|
-    puts x.length
-    puts y.length
-    puts "sorted"
+    puts array
     if x.length == y.length
       0
     elsif x.length < y.length
